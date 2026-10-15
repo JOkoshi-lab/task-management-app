@@ -1,0 +1,6 @@
+CREATE TABLE tasklist (
+    id VARCHAR(8) PRIMARY KEY,
+    task VARCHAR(256) NOT NULL,
+    deadline VARCHAR(10),
+    done BOOLEAN NOT NULL DEFAULT FALSE
+);
